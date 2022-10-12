@@ -58,9 +58,15 @@ a {
     align-items: center;
 }
 
+.container-right .container-imageright{
+    display: flex;
+    gap: 5px;
+}
+
 .container-right .fourimagesright{
     border-radius: 9px;
-    height: 220px;
+    padding: 5px;
+    height: 200px;
     width: auto;
 }
 
@@ -119,7 +125,7 @@ a {
 
 .call-action .calltoact{
     background-color: #3882F6;
-    padding: 80px;
+    padding: 40px;
     display: flex ;
     justify-content: center;
     align-items: center;
