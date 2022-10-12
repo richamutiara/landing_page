@@ -60,12 +60,12 @@ a {
 
 .container-right .container-imageright{
     display: flex;
-    gap: 5px;
+    gap: 2px;
 }
 
 .container-right .fourimagesright{
     border-radius: 9px;
-    padding: 5px;
+    padding: 2px;
     height: 200px;
     width: auto;
 }
