@@ -1,0 +1,148 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: #272F44;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 200px;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 100;
+    height: auto;
+    width: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    background-color: #272F44;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.container-left{
+    color: aliceblue;
+    margin: 90px;
+    font-size: larger;
+}
+
+.container-left .button{
+    background-color: white;
+    color: #272F44;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 8px 9px;
+    font-weight: 300px;
+    border: none;
+}
+
+.container-right{
+    margin: 50px;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container-right .fourimagesright{
+    border-radius: 9px;
+    height: 220px;
+    width: auto;
+}
+
+.containerforimage{
+    text-align: center;
+    font-size: larger;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.image-cake{
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-cake .cake-content{
+    height: 250px;
+    width: auto;
+    border: 5px solid;
+}
+
+.qoutes{
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #565656;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.qoutes .nameofqoute{
+    text-align: right;
+    font-size: 28px;
+    padding-right: 40px;
+    color: #565656;
+}
+
+.call-action{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.call-action .calltoact{
+    background-color: #3882F6;
+    padding: 80px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.call-action .button-two{
+    background-color:  #3882F6;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 8px 9px;
+    font-weight: 300px;
+    border: 2px solid white ;
+}
+
+footer{
+    background-color: #272F44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
